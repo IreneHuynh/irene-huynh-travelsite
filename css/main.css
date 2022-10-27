@@ -1,0 +1,28 @@
+.header_links{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.travel__background{
+    background-color: #fefaf5;
+    height: 500px;
+}
+.travel__background__img{
+    background-image: url(../assets/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 500px;
+    min-width: 400px;
+    height: 500px;
+}
+.recommendations__background{
+    background-color: white;
+    height: 500px;
+}
+.footer__container{
+
+}
+.footer__background{
+    background-color: #fefaf5;
+    height: 500px;
+}
