@@ -1,0 +1,44 @@
+.hawaii__container{
+    max-width: 1280px;
+    height: 500px;
+}
+.hawaii__background__img{
+    background: url(../assets/images/hawaii.jpg);
+    max-width: 1280px;
+    min-width: 1080px;
+    max-height: 500px;
+    min-height: 500px;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+.hawaii__title{
+    color: white;
+    font-size: 60px;  
+}
+.hawaii__cards__container{
+    text-align: center;
+    background-color: transparent; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.hawaii__card{
+    display: inline-block;
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 300px;
+    max-height: 350px;
+    background-color: white;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 5px;
+}
+.hawaii__card--friday{
+    border-bottom: 2px solid black;
+}
+.hawaii__card--schedule{
+    background-color: antiquewhite;
+    padding: 5px 0px;
+}

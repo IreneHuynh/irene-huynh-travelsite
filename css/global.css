@@ -1,0 +1,20 @@
+body,
+div,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+section{
+    font-family: 'Verdana';
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+    max-width: 1280px;
+}
+
+/* This is to reset all the element's padding and margins  */
