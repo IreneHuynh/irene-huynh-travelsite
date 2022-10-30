@@ -1,4 +1,4 @@
-body,div,ul,        /* This is to reset all the element's padding and margins  */
+body,div,ul,        /* -----------------This is to reset all the element's padding and margins--------------  */
 ol,h1,h2,h3,
 h4,p,button,
 section{
@@ -12,10 +12,10 @@ section{
 }
 ul{
     list-style-type: none;
-}                          /* This is to reset all the element's padding and margins  */
+}                         
 
 
-.header__nav__spacer{   /* This is my global header  */
+.header__nav__spacer{   /*---------------------------- This is my global header ---------------------------- */
     display:flex;
     justify-content: space-between;
 }
@@ -46,7 +46,7 @@ ul{
     border-bottom: 5px solid #DB7A4E;
 }
 
-.footer__container{ /* This is my global footer */
+.footer__container{     /* ---------------------------- This is my global footer ---------------------------- */
     background-color: #fefaf5;
     height: 150px;
     display:flex;
