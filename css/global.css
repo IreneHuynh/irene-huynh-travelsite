@@ -1,13 +1,6 @@
-body,
-div,
-ul,
-ol,
-h1,
-h2,
-h3,
-h4,
-p,
-button,
+body,div,ul,        /* This is to reset all the element's padding and margins  */
+ol,h1,h2,h3,
+h4,p,button,
 section{
     font-family: 'Verdana';
     margin: 0;
@@ -17,10 +10,43 @@ section{
     max-width: 1280px;
     font-weight: 900;
 }
+ul{
+    list-style-type: none;
+}                          /* This is to reset all the element's padding and margins  */
 
-/* This is to reset all the element's padding and margins  */
 
-.footer__container{
+.header__nav__spacer{   /* This is my global header  */
+    display:flex;
+    justify-content: space-between;
+}
+.header__section__left{
+    padding: 0px 10px;
+    margin-left: 60px;
+}
+.header__section__right{
+    padding: 0px 10px;
+    margin-right: 60px;
+    display:flex;
+}
+.header__links{
+    display: inline-block;
+    color: black;
+    margin: 20px 10px 10px 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+}
+.header__link__travelsite{
+    font-weight: 900;
+    color:#335576;
+    font-size: 16px;
+}
+.header__link--underline{
+    border-bottom: 5px solid #DB7A4E;
+}
+
+.footer__container{ /* This is my global footer */
     background-color: #fefaf5;
     height: 150px;
     display:flex;

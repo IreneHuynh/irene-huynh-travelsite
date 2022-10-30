@@ -1,23 +1,8 @@
-.header__links{
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-    padding: 20px;
+.header__link--underline{
+    border-bottom: 5px solid #DB7A4E;
 }
-.header__link__travelsite{
-    font-weight: 900;
-    color:#335576;
-}
-.header__nav{
-    display:flex;
-    justify-content: space-between;
-}
-.header__section__left{
-    padding: 0px 100px;
-}
-.header__section__right{
-    padding: 0px 100px;
-}
+
+
 .travel__background{
     background-color: #fefaf5;
     height: 450px;
@@ -107,51 +92,4 @@
 .recommendations__background{
     background-color: white;
     height: 500px;
-}
-.footer__container{
-    background-color: #fefaf5;
-    height: 150px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer__subcontainer{
-    display: inline-block;
-}
-.footer__title{
-    font-size:20px;
-    padding: 10px;
-    color:#335576;
-}
-.footer__subheader{
-    font-size:10px;
-    font-weight: normal;
-    padding: 10px 10px;
-    color:#DB7A4E;
-}
-.footer__subtext{
-    font-size: 15px;
-    font-weight:normal;
-    padding: 0px 10px;
-    color:#335576;
-}
-.footer__contact{
-    display: inline-block;
-    margin: 0px 20px;
-}
-.footer__hours{
-    display: inline-block;
-    width: 35%;
-    margin: 0px 20px;
-}
-.footer__social{
-    display: inline-block;
-    margin: 0px 20px;
-}
-.footer__container__images{
-    display: inline-block;
-}
-.footer__img{
-    height:20px;
-    padding: 20px 10px 3px 10px;
 }
