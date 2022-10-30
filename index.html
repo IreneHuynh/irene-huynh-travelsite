@@ -10,23 +10,29 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a class="header__links" href="">Travel Site</a>
-        <a class="header__links" href="">Home</a>
-        <a class="header__links" href="">Hawaii</a>
-        <a class="header__links" href="">Greece</a>    
+    <header class="header__nav">
+        <section class="header__section__left">
+            <a class="header__links header__link__travelsite" href="">Travel Site</a>
+        </section>
+        <section class="header__section__right">
+            <a class="header__links" href="">Home</a>
+            <a class="header__links" href="">Hawaii</a>
+            <a class="header__links" href="">Iceland</a>
+            <a class="header__links" href="">Greece</a>   
+        </section> 
     </header>
     <section class="travel__background">
-        <section>
-            <h1>Travelling Comes With Endless Discoveries</h1>
-            <p>Don't let your dreams be just dreams: Experience the world by booking a vacation with us now.</p>
-            <button>Get started</button>
+        <section class="travel__section__left">
+            <h1 class="travel__title">Travelling Comes With Endless Discoveries</h1>
+            <p class="travel__des">Don't let your dreams be just dreams: Experience the world by booking a vacation with us now.</p>
+            <button class="travel__button">Get started</button>
         </section>
-        <section class ="travel__background__img">
+        <section class ="travel__section__right">
+            <section class="travel__background__img"></section>
         </section>
     </section>
     <section class="recommendations__background">
-        <h3 class="recommend__title">Recommendations</h3>
+        <h2 class="recommend__title">Recommendations</h2>
         <section class="recommended__cards__container">
             <section class="recommended__card recommend__card--hawaii"><p>Hawaii</p></section>
             <section class="recommended__card recommend__card--iceland"><p>Iceland</p></section>
@@ -34,22 +40,34 @@
         </section>
     </section>
     <footer class="footer__container">
-        <section class="footer__background">
-            <section>
+            <section class="footer__contact">
                 <h3 class="footer__title">Contact</h3>
-                <h4>EMAIL</h4>
-                <h4>info@travelsite.com</h4>
+                <section class="footer__subcontainer">
+                    <h4 class="footer__subheader">EMAIL</h4>
+                    <h4 class="footer__subtext">info@travelsite.com</h4>
+                </section>
             </section>
-            <section>
+            <section class="footer__hours">
                 <h3 class="footer__title">Hours</h3>
+                <section class="footer__subcontainer">
+                    <h4 class="footer__subheader">MONDAY - FRIDAY</h4>
+                    <h4 class="footer__subtext">9:00 AM - 5:00 PM</h4>
+                </section>
+                <section class="footer__subcontainer">
+                    <h4 class="footer__subheader">SATURDAY</h4>
+                    <h4 class="footer__subtext">10:00 AM - 4:00 PM</h4>
+                </section>
+                <section class="footer__subcontainer">
+                    <h4 class="footer__subheader">SUNDAY</h4>
+                    <h4 class="footer__subtext">Closed</h4>
+                </section>
             </section>
-            <section >
+            <section class="footer__social">
                 <h3 class="footer__title">Social</h3>
-                <img src="./assets/Icons/icon-instagram.png">
-                <img src="./assets/Icons/icon-facebook.png">
-                <img src="./assets/Icons/icon-twitter.png">
+                <img class="footer__img" src="./assets/Icons/icon-instagram.png">
+                <img class="footer__img" src="./assets/Icons/icon-facebook.png">
+                <img class="footer__img" src="./assets/Icons/icon-twitter.png">
             </section>
-        </section>
     </footer>
 </body>
 </html>

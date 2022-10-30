@@ -2,21 +2,52 @@
     text-decoration: none;
     display: inline-block;
     color: black;
+    padding: 20px;
+}
+.header__link__travelsite{
+    font-weight: bold;
+}
+.header__nav{
+    display:flex;
+    justify-content: space-between;
+}
+.header__section__left{
+    padding: 0px 100px;
+}
+.header__section__right{
+    padding: 0px 100px;
 }
 .travel__background{
     background-color: #fefaf5;
     height: 500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.travel__section__left{
+    width: 50%;
+}
+.travel__section__right{
+    width: 35%;
+}
+.travel__title{
+    font-size:30px;
+}
+.travel__button{
+    border-radius: 25px;
+    background-color:orange;
+    padding: 10px 20px;
 }
 .travel__background__img{
     background-image: url(../assets/images/hero.png);
     background-repeat: no-repeat;
     background-size: contain;
-    max-width: 500px;
-    min-width: 400px;
-    height: 500px;
+    width:400px;
+    height: 400px;
 }
 .recommend__title{
     color: black;
+    font-size:25px;
 }
 .recommended__cards__container{
     text-align: center;
@@ -27,9 +58,9 @@
 .recommended__card{
     display: inline-block;
     min-width: 200px;
-    max-width: 250px;
-    min-height: 300px;
-    max-height: 350px;
+    max-width: 200px;
+    min-height: 400px;
+    max-height: 400px;
     padding: 0px 10px;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +71,8 @@
     background-image: url('../assets/images/greece.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    height:550px;
+    width:300px;
 }
 .recommend__card--hawaii{
     background-image: url('../assets/images/hawaii.jpg');
@@ -51,18 +84,38 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
 .recommendations__background{
     background-color: white;
     height: 500px;
 }
-.footer__container{
-
+.footer__subcontainer{
+    display: inline-block;
 }
 .footer__title{
-    
+    font-size:25px;
 }
-.footer__background{
+.footer__subheader{
+    font-size:15px;
+}
+.footer__subtext{
+    font-size: 10px;
+}
+.footer__container{
     background-color: #fefaf5;
-    height: 500px;
+    height: 150px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__contact{
+    display: inline-block;
+}
+.footer__hours{
+    display: inline-block;
+}
+.footer__social{
+    display: inline-block;
+}
+.footer__img{
+    height:25px;
 }
