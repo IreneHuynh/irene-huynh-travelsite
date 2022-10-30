@@ -5,7 +5,8 @@
     padding: 20px;
 }
 .header__link__travelsite{
-    font-weight: bold;
+    font-weight: 900;
+    color:#335576;
 }
 .header__nav{
     display:flex;
@@ -19,24 +20,33 @@
 }
 .travel__background{
     background-color: #fefaf5;
-    height: 500px;
+    height: 450px;
     display:flex;
     justify-content: space-around;
     align-items: center;
 }
 .travel__section__left{
-    width: 50%;
+    width: 40%;
 }
 .travel__section__right{
     width: 35%;
 }
 .travel__title{
     font-size:30px;
+    color:#335576;
+    margin:20px 0px;
+}
+.travel__des{
+    font-size:13px;
+    color:#335576;
+    margin:20px 0px;
 }
 .travel__button{
     border-radius: 25px;
-    background-color:orange;
+    background-color:#DB7A4E;
     padding: 10px 20px;
+    color: white;
+    border-color: #DB7A4E;
 }
 .travel__background__img{
     background-image: url(../assets/images/hero.png);
@@ -44,35 +54,46 @@
     background-size: contain;
     width:400px;
     height: 400px;
+    margin-top: 20px;
 }
 .recommend__title{
     color: black;
-    font-size:25px;
+    font-size:20px;
+    font-weight: 900;
 }
 .recommended__cards__container{
     text-align: center;
     background-color: transparent; 
     margin-left: auto;
     margin-right: auto;
+    vertical-align: bottom;
 }
 .recommended__card{
     display: inline-block;
-    min-width: 200px;
-    max-width: 200px;
-    min-height: 400px;
-    max-height: 400px;
-    padding: 0px 10px;
+    width: 250px;
+    height: 375px;
     align-items: center;
     justify-content: space-between;
     margin: 20px;
     border-radius: 5px;
+    position:relative;
+    bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px .0px rgba(0, 0, 0, 0.2);
+}
+.recomendations__card-name{
+    font-size: 20px;
+    font-family:Verdana;
+    color: white;
+    font-weight: 900;
+    position:absolute;
+    bottom: 20px;
+    right: 10px;
 }
 .recommend__card--greece{
     background-image: url('../assets/images/greece.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    height:550px;
-    width:300px;
 }
 .recommend__card--hawaii{
     background-image: url('../assets/images/hawaii.jpg');
@@ -92,30 +113,46 @@
     display: inline-block;
 }
 .footer__title{
-    font-size:25px;
+    font-size:20px;
+    padding: 10px;
+    color:#335576;
 }
 .footer__subheader{
-    font-size:15px;
+    font-size:10px;
+    font-weight: normal;
+    padding: 10px 10px;
+    color:#DB7A4E;
 }
 .footer__subtext{
-    font-size: 10px;
+    font-size: 15px;
+    font-weight:normal;
+    padding: 0px 10px;
+    color:#335576;
 }
 .footer__container{
     background-color: #fefaf5;
     height: 150px;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .footer__contact{
     display: inline-block;
+    margin: 0px 20px;
 }
 .footer__hours{
     display: inline-block;
+    width: 35%;
+    margin: 0px 20px;
 }
 .footer__social{
     display: inline-block;
+    margin: 0px 20px;
+}
+.footer__container__images{
+    display: inline-block;
 }
 .footer__img{
-    height:25px;
+    height:20px;
+    padding: 20px 10px 3px 10px;
 }
