@@ -1,33 +1,51 @@
-.hawaii__container{
-    max-width: 1280px;
-    height: 500px;
+.destinations__container{
+    width: 1280px;
+    height: 650px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .hawaii__background__img{
     background: url(../assets/images/hawaii.jpg);
-    max-width: 1280px;
-    min-width: 1080px;
-    max-height: 500px;
-    min-height: 500px;
-    background-repeat:no-repeat;
-    background-position: center;
-    
+    width: 1280px;
+    height: 650px;
+    background-position: 60% 58%;
+    position: relative;
 }
-.hawaii__title{
+.iceland__background__img{
+    background: url(../assets/images/iceland.jpg);
+    width: 1280px;
+    height: 650px;
+    background-position: 60% 58%;
+    position: relative;
+}
+.greece__background__img{
+    background: url(../assets/images/greece.jpg);
+    width: 1280px;
+    height: 650px;
+    background-position: 60% 58%;
+    position: relative;
+}
+.destinations__title{
     color: white;
-    font-size: 60px;  
+    font-size: 70px;
+    position: absolute;
+    top: 60px;  
+    left: 100px;
 }
-.hawaii__cards__container{
+.destinations__cards__container{
+    width: 1280px;
     text-align: center;
     background-color: transparent; 
     margin-left: auto;
     margin-right: auto;
+    position:relative;
+    transform: translateY(50%);
+
 }
-.hawaii__card{
+.destinations__card{
     display: inline-block;
-    min-width: 200px;
-    max-width: 250px;
-    min-height: 300px;
-    max-height: 350px;
+    width: 220px;
+    height: 350px;
     background-color: white;
     padding: 0px 10px;
     align-items: center;
@@ -35,10 +53,15 @@
     margin: 20px;
     border-radius: 5px;
 }
-.hawaii__card--friday{
+.destinations__cards__container{
+    padding-top: 20px;
+}
+.destinations__card__day{
+    padding-top: 20px;
     border-bottom: 2px solid black;
 }
-.hawaii__card--schedule{
-    background-color: antiquewhite;
-    padding: 5px 0px;
+.destinations__card--schedule{
+    background-color: #FEFAF5;
+    padding: 15px 0px;
+    margin: 18px 0px;
 }
